@@ -1,0 +1,23 @@
+**Schema (MySQL v5.7)**
+
+    create table test2(id integer,name varchar(10));
+    insert into test2 values(10,'Sandhya');
+    insert into test2 values(11,'Samy');
+    insert into test2 values(12,'Sarthi');                                           
+
+---
+
+**Query #1**
+
+    select * from test2;
+
+| id  | name    |
+| --- | ------- |
+| 10  | Sandhya |
+| 11  | Samy    |
+| 12  | Sarthi  |
+
+---
+
+
+
