@@ -1,0 +1,24 @@
+**Schema (MySQL v5.7)**
+
+    create table test4(usn integer ,name varchar(10) primary key,phno integer,branch varchar(3));
+    insert into test4 values(11,'sandhya',1234,'CS'); 
+    insert into test4 values(12,'shithal',5678,'IS');
+    insert into test4 values(13,'smitha',1256,'IS');
+    insert into test4 values(14,'shreya',8765,'EC');                                                                                                                                                
+
+---
+
+**Query #1**
+
+    select *from test4;
+
+| usn | name    | phno | branch |
+| --- | ------- | ---- | ------ |
+| 11  | sandhya | 1234 | CS     |
+| 12  | shithal | 5678 | IS     |
+| 14  | shreya  | 8765 | EC     |
+| 13  | smitha  | 1256 | IS     |
+
+---
+
+[View on DB Fiddle](https://www.db-fiddle.com/f/5D89soi9rJ4gdAHAfbdmHD/0)
